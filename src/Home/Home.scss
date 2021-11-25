@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    padding-bottom: 22px;
+    padding-top: 22px;
+    padding-left: 50px;
+    &__input{
+        margin-left: 60px;
+        width: 733px;
+        height: 44px;
+        background: #F9F9F9;
+        mix-blend-mode: normal;
+        border-radius: 22px;
+        padding-left: 23px;
+        border: none;
+        color: #30384C;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: "Outfit";
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            mix-blend-mode: normal;
+            opacity: 0.4;
+            color: #30384C;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: "Outfit";
+        }
+    }
+    &__icon{
+        position: absolute;
+        margin-top: 13px;
+        margin-left: -33px;
+    }
+    &__sun{
+        position: absolute;
+        font-size: 33px;
+        margin-left: 11px;
+        z-index: 5;
+        margin-top: -3px;
+        display: none;
+        cursor: pointer;
+    }
+    &__moon{
+        position: absolute;
+        font-size: 33px;
+        margin-top: -3px;
+        margin-left: 11px;
+        cursor: pointer;
+    }
+    &__flex-1{
+        margin-top: 5px;
+    }
+    &__flex-3{
+        margin-left: 55px;
+        margin-top: 8px;
+    }
+    &__shape{
+        margin-left: 42px;
+    }
+    &__qongiroq{
+        margin-left: 42px;
+    }
+    &__user--img{
+        margin-left: 50px;
+        margin-top: -6px;
+        position: absolute;
+    }
+}
+.yarkiy{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: 5;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 400px;
+    max-height: 100vh;
+    background-color: transparent;
+    &__span{
+        margin-left: 244px;
+        margin-bottom: 22px;
+        display: flex;
+    }
+    &__title{
+        font-family: "Outfit";
+        font-weight: 700;
+        color: #5f6164;
+        margin-left: 20px;
+        font-size: 26px;
+        line-height: 33px;
+        margin-top: 7px;
+    }
+    &__list{
+        display: inline-block;
+        margin: 0;
+        list-style-type: none;
+        overflow: auto;
+    }
+    &__list2{
+        display: inline-block;
+        margin: 0;
+        list-style-type: none;
+        overflow: auto;
+    }
+    &__list3{
+        display: inline-block;
+        margin: 0;
+        list-style-type: none;
+        overflow: auto;
+    }
+    &__video{
+        border-radius: 14px;
+        width: 250px;
+        height: 150px;
+    }
+    &__video1{
+        border-radius: 14px;
+        width: 540px;
+        height: 250px;
+    }
+    &__text{
+        font-family: "Outfit";
+        font-weight: 500;
+        width: 360px;
+        color: #5f6164;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    &__item{
+        margin-left: 0px;
+    }
+    &__item1{
+        margin-left: 33px;
+        margin-top: 33px;
+    }
+    &__recommended{
+        font-family: "Outfit";
+        font-weight: 700;
+        margin-left: 260px;
+        color: #5f6164;
+        margin-top: 40px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+}
+.tyomniy{
+    background: #000;
+}
+.container{
+    width: 1920px;
+    margin: 0 auto;
+}
+.btn__sun{
+    position: absolute;
+    font-size: 33px;
+    margin-left: 11px;
+    position: absolute;
+    width: 32px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+}
+.footer{
+    padding-left: 55px;
+    padding-top: 60px;
+    padding-right: 66px;
+    padding-bottom: 370px;
+    height: 100vh;
+    left: 0;
+    z-index: 5;
+   position: absolute;
+   background-color: #fff;
+    &__list{
+        list-style-type: none;
+        display: block;
+    }
+    &__item{
+        margin-bottom: 28px;
+        &:nth-child(3){
+            margin-bottom: 60px;
+        }
+    }
+    &__navlink{
+        text-decoration: none;
+        color: #C2C2C2;
+        display: flex;
+    }
+    .active{
+        color: #FF0000;
+    }
+    &__link{
+        margin-left: 15px;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: "Outfit";
+        font-weight: 400;
+    }
+    &__list2{
+        position: absolute;
+        list-style-type: none;
+        display: block;
+    }
+    &__item2{
+        display: flex;
+        margin-bottom: 22px;
+    }
+    .footer__navlink2{
+        display: flex;
+        color: #C2C2C2;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+    .footer__title{
+        font-family: "Outfit";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #C2C2C2;
+        margin-left: 8px;
+        margin-top: 1px;
+    }
+    &__title1{
+        font-family: "Outfit";
+        font-weight: 600;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        color: #C2C2C2;
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 2px) {
+    .header__sun{
+       display: none;   
+    }
+    .header__moon{
+       display: none;           
+    }
+    .tyomniy{
+        background-color: transparent;
+    }
+    .yarkiy__list{
+        display: none;
+    }
+    .yarkiy__list3{
+        display: none;
+    }
+    .yarkiy__list2{
+        display: flex;
+        justify-content: center;
+        margin-left: -500px;
+    }
+    .yarkiy__video1{
+        width: 288px;
+        height: 150px;
+    }
+    .yarkiy{
+        position: absolute;
+        &__span{
+            display: none;
+        }
+        &__recommended{
+            display: none;
+        }
+    }
+    .header__input{
+        display: none;
+    }
+    .header__kamera{
+        display: none;
+    }
+    .header__shape{
+        display: none;
+    }
+    .header__qongiroq{
+        display: none;
+    }
+    .header{
+        display: flex;
+        margin-left: -700px;
+        justify-content: center;
+        &__icon{
+            margin-left: 60px;
+        }
+    }
+    .footer__list{
+        display: flex;
+    }
+    .footer{
+        margin-top: 800px;
+        margin-left: 480px;
+    }
+    .footer__item{
+        display: none;
+        margin-left: 30px;
+        &:nth-child(1) {
+            display: block;
+        }
+        &:nth-child(2) {
+            display: block;
+        }
+        &:nth-child(3) {
+            display: block;
+        }
+        &:nth-child(4) {
+            display: block;
+        }
+    }
+    .footer__navlink{
+        display: block;
+    }
+    .footer__link{
+        margin-left: -12px;
+    }
+    .left{
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: 15px;
+    }
+    .footer__list2{
+        display: none;
+    }
+}

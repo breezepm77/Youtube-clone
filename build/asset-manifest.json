@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86311bec.chunk.css",
+    "main.js": "/static/js/main.2e89233f.chunk.js",
+    "main.js.map": "/static/js/main.2e89233f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7192bbae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7192bbae.js.map",
+    "static/js/2.31dfddc9.chunk.js": "/static/js/2.31dfddc9.chunk.js",
+    "static/js/2.31dfddc9.chunk.js.map": "/static/js/2.31dfddc9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.86311bec.chunk.css.map": "/static/css/main.86311bec.chunk.css.map",
+    "static/js/2.31dfddc9.chunk.js.LICENSE.txt": "/static/js/2.31dfddc9.chunk.js.LICENSE.txt",
+    "static/media/Black.540953d0.svg": "/static/media/Black.540953d0.svg",
+    "static/media/Combined Shape.e1443a22.svg": "/static/media/Combined Shape.e1443a22.svg",
+    "static/media/Oval (1).615acb09.svg": "/static/media/Oval (1).615acb09.svg",
+    "static/media/Oval (2).206b10f6.svg": "/static/media/Oval (2).206b10f6.svg",
+    "static/media/Oval (3).d1a0a00f.svg": "/static/media/Oval (3).d1a0a00f.svg",
+    "static/media/Oval (4).fd980551.svg": "/static/media/Oval (4).fd980551.svg",
+    "static/media/Oval (5).8120bd2e.svg": "/static/media/Oval (5).8120bd2e.svg",
+    "static/media/Userpic.e764ca2b.svg": "/static/media/Userpic.e764ca2b.svg",
+    "static/media/documents-11.8ea77692.svg": "/static/media/documents-11.8ea77692.svg",
+    "static/media/others-07.f7ee2392.svg": "/static/media/others-07.f7ee2392.svg",
+    "static/media/phone-18.69afc4b6.svg": "/static/media/phone-18.69afc4b6.svg",
+    "static/media/search.ccc73879.svg": "/static/media/search.ccc73879.svg",
+    "static/media/tech-02.f5249e65.svg": "/static/media/tech-02.f5249e65.svg",
+    "static/media/tech-25.bc5a4530.svg": "/static/media/tech-25.bc5a4530.svg",
+    "static/media/ui-01.7d3a2abf.svg": "/static/media/ui-01.7d3a2abf.svg",
+    "static/media/ui-02.bbbfaf49.svg": "/static/media/ui-02.bbbfaf49.svg",
+    "static/media/ui-03.09ce125f.svg": "/static/media/ui-03.09ce125f.svg",
+    "static/media/ui-11.a2aad633.svg": "/static/media/ui-11.a2aad633.svg",
+    "static/media/ui-45.8626d17c.svg": "/static/media/ui-45.8626d17c.svg",
+    "static/media/ui-71.df82b596.svg": "/static/media/ui-71.df82b596.svg",
+    "static/media/ui-80.0d1bce23.svg": "/static/media/ui-80.0d1bce23.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7192bbae.js",
+    "static/js/2.31dfddc9.chunk.js",
+    "static/css/main.86311bec.chunk.css",
+    "static/js/main.2e89233f.chunk.js"
+  ]
+}
